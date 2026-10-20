@@ -1,0 +1,31 @@
+/**
+ * Novus UAE — Master Design System (MDS) Theme Tokens
+ * Semantic CSS Custom Properties for Luxury Dubai Executive Corporate Archetype.
+ */
+:root {
+  /* Canvas Foundations - Official Novus Palette */
+  --brand-canvas-primary: #101e32;
+  --brand-canvas-secondary: #0c1726;
+  --brand-canvas-elevated: #182c47;
+
+  /* Luxury Gold Accents - Official Novus Warm Champagne Gold */
+  --brand-accent-gold: #b6965e;
+  --brand-accent-gold-hover: #c5a059;
+  --brand-accent-gold-muted: rgba(182, 150, 94, 0.15);
+  --brand-accent-gold-glow: rgba(182, 150, 94, 0.25);
+
+  /* Glassmorphism Surfaces */
+  --brand-surface-glass: rgba(16, 30, 50, 0.75);
+  --brand-surface-glass-border: rgba(182, 150, 94, 0.20);
+  --brand-surface-glass-hover: rgba(24, 44, 71, 0.85);
+
+  /* Executive Typography & Readability - Official Novus Pearl Ivory */
+  --brand-text-primary: #f4eee3;
+  --brand-text-secondary: #cbd5e1;
+  --brand-text-muted: #94a3b8;
+
+  /* Status & Semantics */
+  --brand-success: #10B981;
+  --brand-warning: #F59E0B;
+  --brand-error: #EF4444;
+}

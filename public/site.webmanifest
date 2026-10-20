@@ -1,0 +1,26 @@
+{
+  "name": "Novus UAE — Government & Business Setup",
+  "short_name": "Novus UAE",
+  "description": "Premier corporate digital presence for Novus Government & Business Setup Services in Dubai & UAE.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#101e32",
+  "theme_color": "#101e32",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

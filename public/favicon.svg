@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14243b" />
+      <stop offset="100%" stop-color="#0c1726" />
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4af37" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#b6965e" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#8a6f3d" stop-opacity="0.8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Luxury Background Squircle -->
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="12" />
+
+  <!-- Novus Official Emblem Centered -->
+  <g transform="translate(101, 107) scale(0.98)">
+    <!-- Novus Ring (Pearl Ivory) -->
+    <path d="M 219.30 90.92 C 197.43 68.45 165.22 61.80 137.19 77.49 C 96.26 100.40 90.94 158.19 126.96 188.48 C 172.27 226.59 239.06 189.56 235.40 132.14 C 235.15 128.23 232.52 120.68 234.01 117.47 L 273.76 81.44 C 280.39 92.02 285.05 104.97 287.22 117.27 C 307.51 232.09 156.01 299.40 79.54 212.21 C 8.00 130.63 79.32 8.00 182.68 17.17 L 219.30 90.92" fill="#f4eee3" fill-rule="evenodd" />
+    <!-- Novus Diamond (Official Gold) -->
+    <path d="M 243.92 80.49 L 241.98 79.91 L 210.78 16.08 C 236.14 15.40 263.18 19.08 282.35 36.90 L 243.92 80.49" fill="#b6965e" fill-rule="evenodd" />
+  </g>
+</svg>
