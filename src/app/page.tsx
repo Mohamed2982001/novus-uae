@@ -5,7 +5,6 @@ import { HeroSection } from "@/components/sections/hero-section";
 import { AuthorityBadges } from "@/components/sections/authority-badges";
 import { StatsStrip } from "@/components/sections/stats-strip";
 import { ServicesBento } from "@/components/sections/services-bento";
-import { SetupCalculator } from "@/components/sections/calculator";
 import { LeadershipGrid } from "@/components/sections/leadership";
 import { TestimonialsCarousel } from "@/components/sections/testimonials";
 import { ConsultationForm } from "@/components/sections/consultation";
@@ -32,9 +31,6 @@ export default function HomePage() {
 
       {/* Sprint 4 Core Showcase: 7 Pillars Services Bento Grid */}
       <ServicesBento />
-
-      {/* Sprint 5 Core Engine: Interactive UAE Business Setup Cost Calculator */}
-      <SetupCalculator />
 
       {/* Sprint 6 Trust Pillar 1: Executive Leadership & Sovereign Advisors */}
       <LeadershipGrid />

@@ -5,7 +5,6 @@ import {
   Compass,
   ShieldCheck,
   Briefcase,
-  Calculator,
   Users,
   Star,
   Calendar,
@@ -40,12 +39,6 @@ export const SUBNAV_TABS: SubNavTab[] = [
     labelEn: "7 Core Services",
     labelAr: "الخدمات الرئيسية",
     icon: Briefcase,
-  },
-  {
-    id: "calculator",
-    labelEn: "Cost Calculator",
-    labelAr: "حاسبة التكاليف",
-    icon: Calculator,
   },
   {
     id: "leadership",

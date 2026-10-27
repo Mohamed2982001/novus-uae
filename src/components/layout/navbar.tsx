@@ -18,7 +18,6 @@ export interface NavItem {
 
 export const NAV_ITEMS: NavItem[] = [
   { labelEn: "Core Services", labelAr: "الخدمات الرئيسية", href: "#services" },
-  { labelEn: "Cost Calculator", labelAr: "حاسبة التكاليف", href: "#calculator" },
   { labelEn: "Leadership", labelAr: "القيادة التنفيذية", href: "#leadership" },
   { labelEn: "Testimonials", labelAr: "آراء العملاء", href: "#testimonials" },
   { labelEn: "Consultation", labelAr: "حجز استشارة", href: "#consultation" },

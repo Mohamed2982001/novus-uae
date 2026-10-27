@@ -21,7 +21,6 @@ describe("Sprint 3: Executive Header, Hero & Counters", () => {
     it("mounts navigation links and CTA button", () => {
       render(<Navbar />);
       expect(screen.getByText("Core Services")).toBeInTheDocument();
-      expect(screen.getByText("Cost Calculator")).toBeInTheDocument();
       expect(screen.getByText("Leadership")).toBeInTheDocument();
       const ctaButtons = screen.getAllByRole("button", { name: /Book Consultation/i });
       expect(ctaButtons.length).toBeGreaterThanOrEqual(1);
@@ -51,7 +50,7 @@ describe("Sprint 3: Executive Header, Hero & Counters", () => {
     it("renders dual high-conversion CTAs", () => {
       render(<HeroSection />);
       expect(
-        screen.getByRole("button", { name: /Calculate Setup Cost/i })
+        screen.getByRole("button", { name: /Schedule Executive Consultation/i })
       ).toBeInTheDocument();
       expect(
         screen.getByRole("button", { name: /Explore 7 Core Services/i })

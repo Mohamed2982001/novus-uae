@@ -84,6 +84,12 @@ Whenever the developer (Mohamed Khalid) provides new instructions, feedback, or 
   1. Connected remote origin `https://github.com/Mohamed2982001/novus-uae.git`.
   2. Verified `.gitignore` quarantine on `docs/CREDENTIALS.md`, `.vercel`, `scratch/`.
   3. Pushed clean `main` branch to GitHub for instant Vercel CI/CD deployment.
+- **2026-10-27 19:40:** Luxury Card Redesign & Calculator Removal:
+  1. Leadership Cards: Animated top shimmer line, radial gold backlight, royal crest insignia, pulse beacons, Tajawal typography.
+  2. Services Cards: Luxury glassmorphic depth, ambient gold glow, micro-rotations on crests, interactive tags, preserved side drawer.
+  3. Decommissioned `#calculator` across Page, Navbar, StickySubnav, and Hero.
+  4. Verified 71/71 tests passing, production build succeeded (43.9 kB).
+
 
 
 

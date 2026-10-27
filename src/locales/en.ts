@@ -28,6 +28,7 @@ export const en = {
     subtitle:
       "Guiding international founders, private family offices, and foreign investors through Dubai & Abu Dhabi mainland, free zones, and 10-year Golden Visas with institutional precision.",
     calculateCta: "Calculate Setup Cost",
+    consultationCta: "Schedule Executive Consultation",
     exploreCta: "Explore 7 Core Services",
     trustPoint1: "100% Foreign Ownership Mainland",
     trustPoint2: "Direct DED & MOHRE Integration",

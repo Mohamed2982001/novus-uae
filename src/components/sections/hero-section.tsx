@@ -2,10 +2,11 @@
 
 import * as React from "react";
 import {
-  Calculator,
+  Calendar,
   ShieldCheck,
   CheckCircle2,
   ArrowRight,
+  Sparkles,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/context/language-context";
@@ -71,14 +72,14 @@ export function HeroSection() {
           <Button
             size="lg"
             variant="gold"
-            icon={<Calculator className="h-5 w-5" />}
+            icon={<Calendar className="h-5 w-5" />}
             onClick={() => {
-              const el = document.querySelector("#calculator");
+              const el = document.querySelector("#consultation");
               el?.scrollIntoView({ behavior: "smooth" });
             }}
             className="w-full sm:w-auto shadow-gold-glow"
           >
-            {t("hero.calculateCta")}
+            {t("hero.consultationCta")}
           </Button>
 
           <Button

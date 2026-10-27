@@ -5,7 +5,7 @@ import { StickySubnav } from "@/components/layout/sticky-subnav";
 import { LanguageProvider } from "@/context/language-context";
 
 describe("StickySubnav Luxury Scrollspy Widget", () => {
-  it("renders all 7 executive section tabs with their icons and labels", () => {
+  it("renders all 6 executive section tabs with their icons and labels", () => {
     render(
       <LanguageProvider>
         <StickySubnav />
@@ -15,7 +15,6 @@ describe("StickySubnav Luxury Scrollspy Widget", () => {
     expect(screen.getByText("Overview")).toBeInTheDocument();
     expect(screen.getByText("Authorities")).toBeInTheDocument();
     expect(screen.getByText("7 Core Services")).toBeInTheDocument();
-    expect(screen.getByText("Cost Calculator")).toBeInTheDocument();
     expect(screen.getByText("Leadership")).toBeInTheDocument();
     expect(screen.getByText("Reviews")).toBeInTheDocument();
     expect(screen.getByText("Consultation")).toBeInTheDocument();
@@ -25,7 +24,7 @@ describe("StickySubnav Luxury Scrollspy Widget", () => {
     const scrollToMock = vi.fn();
     window.scrollTo = scrollToMock;
     const fakeSection = document.createElement("div");
-    fakeSection.id = "calculator";
+    fakeSection.id = "services";
     fakeSection.getBoundingClientRect = () => ({ top: 500, bottom: 900 } as DOMRect);
     document.body.appendChild(fakeSection);
 
@@ -35,8 +34,8 @@ describe("StickySubnav Luxury Scrollspy Widget", () => {
       </LanguageProvider>
     );
 
-    const calcTab = screen.getByText("Cost Calculator");
-    fireEvent.click(calcTab);
+    const servicesTab = screen.getByText("7 Core Services");
+    fireEvent.click(servicesTab);
 
     expect(scrollToMock).toHaveBeenCalledWith(
       expect.objectContaining({ behavior: "smooth" })
